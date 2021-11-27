@@ -162,6 +162,11 @@ body {
     list-style-type: none;
 }
 
+#foot
+{
+    font-size: 80px;
+}
+
 .input-text
 {
     font-family: "prototype";
