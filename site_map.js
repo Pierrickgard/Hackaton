@@ -45,3 +45,8 @@ function get_donner_affiliate_form(name_entreprise) {
         alert("Votre demande à été enregistrée, elle sera vérifiée par notre équipe.")
     }
 }
+
+function PopUp() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
