@@ -23,3 +23,25 @@ function initMap() {
         marker.bindPopup(ville);
     } 
 }
+
+function get_donner_sign_in_page(nom_dirigeant, prenom_dirigeant, mail, nom_entreprise) {
+    if (nom_dirigeant == "" || prenom_dirigeant == "" || mail == "" || nom_entreprise == "")
+    {
+        alert("Il faut remplir toutes les cases");
+    }
+    else
+    {
+        alert("votre demande à été enregistrer, elle sera vérifier par notre équipe.")
+    }
+}
+
+function get_donner_affiliate_form(name_entreprise) {
+    if (name_entreprise == "")
+    {
+        alert("Il faut remplir toutes les cases");
+    }
+    else
+    {
+        alert("votre demande à été enregistrer, elle sera vérifier par notre équipe.")
+    }
+}

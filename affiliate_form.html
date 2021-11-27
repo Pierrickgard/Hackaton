@@ -8,6 +8,7 @@
     <title>Proxi'miam</title>
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="site_map.js"></script>
 </head>
 <body>
     <ul>
@@ -34,8 +35,9 @@
     <div id="form">
         <form id="form-text" action="site.html" method="post">
             <label for="name">Nom de l'entreprise:</label>
-            <h5><input class="input-text" type="text" id="name" name="user_name"></h5>
+            <h5><input class="input-text" type="text" id="name" name="name_entreprise"></h5>
             <li class="links"><a id = link href="https://paypal.me/pgardah?country.x=FR&locale.x=fr_FR">Procéder au paiement</a></li>
+            <input type="button" value="Valider" onclick="get_donner_affiliate_form(name_entreprise.value)"/>
         </form>
     </div>
 </body>
