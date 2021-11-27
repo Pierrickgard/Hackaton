@@ -208,3 +208,8 @@ h5
     height: 800px; /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
     width: 1200px;
 }
+
+h9 {
+    color: white;
+    text-align: right;
+}

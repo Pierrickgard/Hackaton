@@ -25,7 +25,7 @@ function initMap() {
 }
 
 function get_donner_sign_in_page(nom_dirigeant, immatriculation_entreprise, mail, nom_entreprise) {
-    if (nom_dirigeant == "" || immatriculation_entreprise == "" || mail == "" || nom_entreprise == "")
+    if (nom_dirigeant == "" || immatriculation_entreprise == "" || mail == "" || nom_entreprise == "" || adresse_complete == "")
     {
         alert("Il faut remplir toutes les cases");
     }

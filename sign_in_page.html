@@ -40,6 +40,9 @@
                 <label for="name">Nom de l'entreprise:</label>
                 <h5><input class="input-text" type="text" id="name" name="nom_entreprise"></h5>
 
+                <label for="name">Adresse complete:</label>
+                <h5><input class="input-text" type="text" id="name" name="adresse_complete"></h5>
+
                 <label for="avatar">Certifications*:</label>
                 <h5><input type="file" id="Bio" name="Bio"></h5>
                 <h5><input type="file" id="Local" name="Local"></h5>
@@ -51,9 +54,11 @@
                     <option value="Légumes">Légumes</option>
                     <option value="Viandes">Viandes</option>
                     <option value="Produits laitiers">Produits laitiers</option>
-                <input type="button" value="Valider" onclick="get_donner_sign_in_page(nom_dirigeant.value, immatriculation_entreprise.value, mail.value, nom_entreprise.value)"/>
             </form>
+            <input type="button" value="Valider" onclick="get_donner_sign_in_page(nom_dirigeant.value, immatriculation_entreprise.value, mail.value, nom_entreprise.value, adresse_complete.value)"/>
         </div>
+        <h9 id="list_aff">* Le premier fichier est obligatoire et correspond au certificat de vérification de production locale.<br></h9>
+        <h9 id="list_aff">Le deuxième fichier est optionnel et correspond à un certificat de production d'appellation.</h9>
     </div>
 </body>
 </html>
