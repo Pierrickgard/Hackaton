@@ -10,24 +10,38 @@
 </head>
 <body>
     <ul>
-        <li class="links"><a id = link href = "site.html">HOME</a></li>
-        <li class="links"><a id = link href="sign_in_page.html">Register Business</a></li>
-        <li class="links"><a id = link href="affiliate_form.html">Become Affiliate</a></li>
+        <li class="links"><a id = link href="site.html">Accueil</a></li>
+        <li class="links"><a id = link href="sign_in_page.html">Enregistrez votre Commerce</a></li>
+        <li class="links"><a id = link href="affiliate_form.html">Devenez Partenaire</a></li>
     </ul>
     </div>
     <div id="aff_box">
+        <h1 id="why">Pourquoi devenir Partenaire ?</h1>
         <div id="logo-img"></div>
-        <h1 id="why">Why Become Affiliate ?</h1>
         <div id="form-box">
             <ul>
-                <li class="no_dot"><h2 id="list_aff">Benefit from a larger visibility from customers in your proximity</h2></li>
-                <li class="no-dot"><h3 id="list_aff">Special benefits such as gps pointer customization</h3></li>
-                <li class="no-dot"><h4 id="list_aff">If you sell bio-organic products, you can pay a smaller fee</h4></li>
+                <li class="no_dot"><h2 id="list_aff">Beneficiez d'une visibilité mise en avant aupres de vos futurs clients</h2></li>
+                <li class="no-dot"><h3 id="list_aff">Des avantages uniques comme des pointeurs GPS personalisables</h3></li>
+                <li class="no-dot"><h4 id="list_aff">Si vous vendez des produits bio, vous beneficirez d'une reduction sur notre programme</h4></li>
+                <li class="no-dot"><h4 id="list_aff">Seulement 20.00€ par mois</h4></li>
             </ul>
-        <div class = aff_sign_up>Interested ?</div>
+        <div class = aff_sign_up>Interessé ?</div>
         <div id="form-box-smol">
-        <div class="aff_sign_up" id="smol">Fill out the form bellow to sign up for our affiliates program</div>
+        <div class="aff_sign_up" id="smol">Remplissez le formulaire ci-dessous pour souscrire a notre programme partenaire !</div>
         </div>
     </div>
+    <div id="form">
+        <form id="form-text" action="site.html" method="post">
+            <label for="name">Nom de l'entreprise:</label>
+            <h5><input class="input-text" type="text" id="name" name="user_name"></h5>
+            <label for="name">Produits vendus:</label>
+            <h5><select name="Type de produit:" id="type-de-produit"></h5>
+                <option value="">--Please choose an option--</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Légumes">Légumes</option>
+                <option value="Viandes">Viandes</option>
+                <option value="Produits laitiers">Produits laitiers</option>
+        </form>
+    </div> 
 </body>
 </html>
