@@ -168,6 +168,19 @@ h8 {
     list-style-type: none;
 }
 
+#valid
+{
+    font-family: "prototype";
+    src: url('Prototype.ttf');
+    font-size: 40px;
+    width: 20%;
+    height: 60px;
+    margin-top: 50px;
+    color: rgb(233, 128, 7);
+    background-color: rgb(24, 24, 24);
+    border: 0px;
+}
+
 .input-text
 {
     font-family: "prototype";
