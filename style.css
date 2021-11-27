@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+h8 {
+    text-align: center;
+    color: seagreen;
+}
+
 #head
 {
     margin: 0px;
@@ -61,6 +66,7 @@ body {
 
 #aff_box
 {
+    text-align: center;
     margin-top: 25px;
     margin-left: 2%;
     margin-right: 2%;
@@ -162,11 +168,6 @@ body {
     list-style-type: none;
 }
 
-#foot
-{
-    font-size: 80px;
-}
-
 .input-text
 {
     font-family: "prototype";
@@ -203,5 +204,7 @@ h5
 
 #map
 {
-    height: 400px;
+    margin-left: 17%;
+    height: 800px; /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    width: 1200px;
 }

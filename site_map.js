@@ -24,14 +24,14 @@ function initMap() {
     } 
 }
 
-function get_donner_sign_in_page(nom_dirigeant, prenom_dirigeant, mail, nom_entreprise) {
-    if (nom_dirigeant == "" || prenom_dirigeant == "" || mail == "" || nom_entreprise == "")
+function get_donner_sign_in_page(nom_dirigeant, immatriculation_entreprise, mail, nom_entreprise) {
+    if (nom_dirigeant == "" || immatriculation_entreprise == "" || mail == "" || nom_entreprise == "")
     {
         alert("Il faut remplir toutes les cases");
     }
     else
     {
-        alert("votre demande à été enregistrer, elle sera vérifier par notre équipe.")
+        alert("Votre demande à été enregistrée, elle sera vérifiée par notre équipe.")
     }
 }
 
@@ -42,6 +42,6 @@ function get_donner_affiliate_form(name_entreprise) {
     }
     else
     {
-        alert("votre demande à été enregistrer, elle sera vérifier par notre équipe.")
+        alert("Votre demande à été enregistrée, elle sera vérifiée par notre équipe.")
     }
 }
