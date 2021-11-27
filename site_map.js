@@ -7,7 +7,8 @@ var villes = {
 	"Brest": { "lat": 48.383, "lon": -4.500 },
 	"Quimper": { "lat": 48.000, "lon": -4.100 },
 	"Bayonne": { "lat": 43.500, "lon": -1.467 },
-    "londres": { "lat": 51.5072, "lon": -0.1275 }
+    "londres": { "lat": 51.5072, "lon": -0.1275 },
+    "KB-Voltaire VJN crÊpes": {"lat": 48.8155, "lon": 2.3630}
 };
 
 function initMap() {
